@@ -137,6 +137,7 @@ class BButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
+        shadowColor: Colors.transparent,
           padding: EdgeInsets.symmetric(
               horizontal: horizontalPadding ?? 17, vertical: verticalPadding ?? 14),
           shape: RoundedRectangleBorder(
