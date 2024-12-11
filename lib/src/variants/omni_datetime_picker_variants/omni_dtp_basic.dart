@@ -47,7 +47,7 @@ class OmniDtpBasic extends StatelessWidget {
         constraints: constraints ??
             const BoxConstraints(
               maxWidth: 350,
-              maxHeight: 650,
+              maxHeight: 700,
             ),
         child: Column(
           mainAxisSize: MainAxisSize.min,
