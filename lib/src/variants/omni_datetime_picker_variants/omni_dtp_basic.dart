@@ -47,7 +47,6 @@ class OmniDtpBasic extends StatelessWidget {
         constraints: constraints ??
             const BoxConstraints(
               maxWidth: 350,
-              maxHeight: 700,
             ),
         child: Column(
           mainAxisSize: MainAxisSize.min,
@@ -107,7 +106,7 @@ class OmniDtpBasic extends StatelessWidget {
                 selectedDateTime,
               );
             }),
-            Padding(padding: EdgeInsets.only(bottom: 32))
+            Padding(padding: EdgeInsets.only(bottom: 20))
           ],
         ),
       ),

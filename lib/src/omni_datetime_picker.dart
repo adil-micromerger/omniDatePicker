@@ -39,7 +39,7 @@ class OmniDateTimePicker extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Dialog(
-      insetPadding: EdgeInsets.symmetric(horizontal: 18),
+      insetPadding: EdgeInsets.symmetric(horizontal: 18,vertical: 40),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(6),
       ),

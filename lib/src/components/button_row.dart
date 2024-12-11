@@ -21,9 +21,12 @@ class ButtonRow extends StatelessWidget {
               borderColor: Color(0xffE5E8EB) ,
               borderRadius: 4,
               onTap: () {
-                Navigator.pop(context);
+                Navigator.pop<DateTime>(
+                  context,
+                  DateTime.now(),
+                );
               },
-              child: Text('Cancel', style: TextStyle(
+              child: Text('Now', style: TextStyle(
                   color: Color(0xff2E528D),
                   fontWeight: FontWeight.w700,
                   fontSize: 16
